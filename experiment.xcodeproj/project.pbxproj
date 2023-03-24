@@ -11,6 +11,7 @@
 		F939768529CDE12900AE22AD /* ExperimentMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939768429CDE12900AE22AD /* ExperimentMenuView.swift */; };
 		F939768729CDEE3700AE22AD /* ExtractSubviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939768629CDEE3700AE22AD /* ExtractSubviewsView.swift */; };
 		F939768A29CDFA6F00AE22AD /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939768929CDFA6F00AE22AD /* BindingView.swift */; };
+		F939768C29CE016600AE22AD /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939768B29CE016600AE22AD /* AnimationView.swift */; };
 		F9DC3AD529C9943500BB2AA3 /* ExperimentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DC3AD429C9943500BB2AA3 /* ExperimentApp.swift */; };
 		F9DC3AD729C9943500BB2AA3 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DC3AD629C9943500BB2AA3 /* ColorView.swift */; };
 		F9DC3AD929C9943700BB2AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9DC3AD829C9943700BB2AA3 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		F939768429CDE12900AE22AD /* ExperimentMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentMenuView.swift; sourceTree = "<group>"; };
 		F939768629CDEE3700AE22AD /* ExtractSubviewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsView.swift; sourceTree = "<group>"; };
 		F939768929CDFA6F00AE22AD /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		F939768B29CE016600AE22AD /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		F9DC3AD129C9943500BB2AA3 /* experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = experiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9DC3AD429C9943500BB2AA3 /* ExperimentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentApp.swift; sourceTree = "<group>"; };
 		F9DC3AD629C9943500BB2AA3 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 				F939768229CDE10700AE22AD /* FrameView.swift */,
 				F939768629CDEE3700AE22AD /* ExtractSubviewsView.swift */,
 				F939768929CDFA6F00AE22AD /* BindingView.swift */,
+				F939768B29CE016600AE22AD /* AnimationView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				F9E8AFBD29CB393500A3441A /* TabBarView.swift in Sources */,
 				F939768329CDE10700AE22AD /* FrameView.swift in Sources */,
 				F939768529CDE12900AE22AD /* ExperimentMenuView.swift in Sources */,
+				F939768C29CE016600AE22AD /* AnimationView.swift in Sources */,
 				F9DC3AD529C9943500BB2AA3 /* ExperimentApp.swift in Sources */,
 				F939768729CDEE3700AE22AD /* ExtractSubviewsView.swift in Sources */,
 			);
