@@ -11,7 +11,7 @@ import SwiftUI
 struct ExperimentApp: App {
     var body: some Scene {
         WindowGroup {
-            CallBackView()
+            ExperimentMenuView()
         }
     }
 }
