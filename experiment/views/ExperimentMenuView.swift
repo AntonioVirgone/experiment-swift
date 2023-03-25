@@ -19,7 +19,8 @@ struct ExperimentMenuView: View {
         "ExtractSubviewsView",
         "BindingView",
         "AnimationView",
-        "ObservableObjectView"
+        "ObservableObjectView",
+        "UnitTestView"
     ]
     
     var textButtonColor = #colorLiteral(red: 0.2745098174, green: 0.4862745106, blue: 0.1411764771, alpha: 1)
@@ -58,6 +59,8 @@ struct ExperimentMenuView: View {
                         AnimationView()
                     case "ObservableObjectView":
                         ObservableObjectView()
+                    case "UnitTestView":
+                        UnitTestView()
                     default:
                         ColorView()
                     }
