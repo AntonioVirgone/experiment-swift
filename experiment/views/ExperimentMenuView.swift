@@ -12,15 +12,18 @@ struct ExperimentMenuView: View {
     @State private var page = "ColorView"
     
     var views = [
-        "ColorView",
-        "TabBarView",
-        "CallBackView",
-        "FrameView",
-        "ExtractSubviewsView",
-        "BindingView",
         "AnimationView",
+        "BackgroundView",
+        "BindingView",
+        "ColorView",
+        "CallBackView",
+        "ExtractSubviewsView",
+        "FrameView",
         "ObservableObjectView",
-        "UnitTestView"
+        "TabBarView",
+        "ToggleDarkModeView",
+        "UnitTestView",
+        "UITestingView"
     ]
     
     var textButtonColor = #colorLiteral(red: 0.2745098174, green: 0.4862745106, blue: 0.1411764771, alpha: 1)
@@ -61,6 +64,12 @@ struct ExperimentMenuView: View {
                         ObservableObjectView()
                     case "UnitTestView":
                         UnitTestView()
+                    case "UITestingView":
+                        UITestingView()
+                    case "BackgroundView":
+                        BackgroundView()
+                    case "ToggleDarkModeView":
+                        ToggleDarkModeView()
                     default:
                         ColorView()
                     }

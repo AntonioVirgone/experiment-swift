@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct ExperimentApp: App {
+    @AppStorage("isDarkMode") private var isDarkMode = false
+
     var body: some Scene {
         WindowGroup {
             ExperimentMenuView()
+                .preferredColorScheme(isDarkMode ? .dark : .light)
         }
     }
 }
