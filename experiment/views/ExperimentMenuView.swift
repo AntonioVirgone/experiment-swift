@@ -19,7 +19,10 @@ struct ExperimentMenuView: View {
         "CallBackView",
         "ExtractSubviewsView",
         "FrameView",
+        "NavigationTestView",
         "ObservableObjectView",
+        "PickerView",
+        "PickerDynamicView",
         "TabBarView",
         "ToggleDarkModeView",
         "UnitTestView",
@@ -46,6 +49,10 @@ struct ExperimentMenuView: View {
                 }
                 .navigationDestination(isPresented: $showingScreen) {
                     switch page {
+                    case "PickerDynamicView":
+                        PickerDynamicView()
+                    case "PickerView":
+                        PickerView()
                     case "ColorView":
                         ColorView()
                     case "TabBarView":
@@ -62,6 +69,8 @@ struct ExperimentMenuView: View {
                         AnimationView()
                     case "ObservableObjectView":
                         ObservableObjectView()
+                    case "NavigationTestView":
+                        NavigationTestView()
                     case "UnitTestView":
                         UnitTestView()
                     case "UITestingView":

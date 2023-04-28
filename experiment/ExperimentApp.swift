@@ -10,6 +10,7 @@ import SwiftUI
 @main
 struct ExperimentApp: App {
     @AppStorage("isDarkMode") private var isDarkMode = false
+    @StateObject private var dataController = ColorDataController()
 
     var body: some Scene {
         WindowGroup {

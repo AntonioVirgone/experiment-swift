@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F91B27AB29FAB43200CFBA0A /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91B27AA29FAB43200CFBA0A /* StackView.swift */; };
+		F91B27AD29FC15AB00CFBA0A /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91B27AC29FC15AB00CFBA0A /* PickerView.swift */; };
+		F91B27B029FC171D00CFBA0A /* ExperimentDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F91B27AE29FC171D00CFBA0A /* ExperimentDataModel.xcdatamodeld */; };
+		F91B27B229FC190C00CFBA0A /* ColorDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91B27B129FC190C00CFBA0A /* ColorDataController.swift */; };
+		F91B27B429FC196400CFBA0A /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91B27B329FC196400CFBA0A /* ColorModel.swift */; };
+		F91B27B629FC1C4B00CFBA0A /* PickerDynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91B27B529FC1C4B00CFBA0A /* PickerDynamicView.swift */; };
 		F939768329CDE10700AE22AD /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939768229CDE10700AE22AD /* FrameView.swift */; };
 		F939768529CDE12900AE22AD /* ExperimentMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939768429CDE12900AE22AD /* ExperimentMenuView.swift */; };
 		F939768729CDEE3700AE22AD /* ExtractSubviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939768629CDEE3700AE22AD /* ExtractSubviewsView.swift */; };
@@ -23,6 +29,7 @@
 		F93976FE29CF512E00AE22AD /* experiment_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93976FD29CF512E00AE22AD /* experiment_UITests.swift */; };
 		F939770029CF512E00AE22AD /* experiment_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93976FF29CF512E00AE22AD /* experiment_UITestsLaunchTests.swift */; };
 		F939773029D1967A00AE22AD /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939772F29D1967A00AE22AD /* BackgroundView.swift */; };
+		F991343B29F5361E00758FAD /* NavigationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F991343A29F5361E00758FAD /* NavigationTestView.swift */; };
 		F9B3162E29D1AA0400746179 /* ToggleDarkModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B3162D29D1AA0400746179 /* ToggleDarkModeView.swift */; };
 		F9DC3AD529C9943500BB2AA3 /* ExperimentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DC3AD429C9943500BB2AA3 /* ExperimentApp.swift */; };
 		F9DC3AD729C9943500BB2AA3 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DC3AD629C9943500BB2AA3 /* ColorView.swift */; };
@@ -50,6 +57,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F91B27AA29FAB43200CFBA0A /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		F91B27AC29FC15AB00CFBA0A /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		F91B27AF29FC171D00CFBA0A /* ExperimentDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExperimentDataModel.xcdatamodel; sourceTree = "<group>"; };
+		F91B27B129FC190C00CFBA0A /* ColorDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDataController.swift; sourceTree = "<group>"; };
+		F91B27B329FC196400CFBA0A /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		F91B27B529FC1C4B00CFBA0A /* PickerDynamicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerDynamicView.swift; sourceTree = "<group>"; };
 		F939768229CDE10700AE22AD /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
 		F939768429CDE12900AE22AD /* ExperimentMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentMenuView.swift; sourceTree = "<group>"; };
 		F939768629CDEE3700AE22AD /* ExtractSubviewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsView.swift; sourceTree = "<group>"; };
@@ -67,6 +80,7 @@
 		F93976FD29CF512E00AE22AD /* experiment_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = experiment_UITests.swift; sourceTree = "<group>"; };
 		F93976FF29CF512E00AE22AD /* experiment_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = experiment_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F939772F29D1967A00AE22AD /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		F991343A29F5361E00758FAD /* NavigationTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTestView.swift; sourceTree = "<group>"; };
 		F9B3162D29D1AA0400746179 /* ToggleDarkModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleDarkModeView.swift; sourceTree = "<group>"; };
 		F9DC3AD129C9943500BB2AA3 /* experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = experiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9DC3AD429C9943500BB2AA3 /* ExperimentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentApp.swift; sourceTree = "<group>"; };
@@ -118,6 +132,10 @@
 				F93976B929CEF18A00AE22AD /* ObservableObjectView.swift */,
 				F93976E129CF3E3E00AE22AD /* UITestingView.swift */,
 				F9B3162D29D1AA0400746179 /* ToggleDarkModeView.swift */,
+				F991343A29F5361E00758FAD /* NavigationTestView.swift */,
+				F91B27AA29FAB43200CFBA0A /* StackView.swift */,
+				F91B27AC29FC15AB00CFBA0A /* PickerView.swift */,
+				F91B27B529FC1C4B00CFBA0A /* PickerDynamicView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -172,11 +190,14 @@
 		F9DC3AD329C9943500BB2AA3 /* experiment */ = {
 			isa = PBXGroup;
 			children = (
+				F91B27AE29FC171D00CFBA0A /* ExperimentDataModel.xcdatamodeld */,
+				F91B27B129FC190C00CFBA0A /* ColorDataController.swift */,
 				F9DC3AD429C9943500BB2AA3 /* ExperimentApp.swift */,
 				F939768829CDFA3F00AE22AD /* views */,
 				F93976CC29CF05C900AE22AD /* test */,
 				F9DC3AD829C9943700BB2AA3 /* Assets.xcassets */,
 				F9DC3ADA29C9943700BB2AA3 /* Preview Content */,
+				F91B27B329FC196400CFBA0A /* ColorModel.swift */,
 			);
 			path = experiment;
 			sourceTree = "<group>";
@@ -337,16 +358,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F91B27B629FC1C4B00CFBA0A /* PickerDynamicView.swift in Sources */,
 				F9E8AFBF29CBA95100A3441A /* CallBackView.swift in Sources */,
 				F9DC3AD729C9943500BB2AA3 /* ColorView.swift in Sources */,
 				F93976E029CF0C0000AE22AD /* UnitTestView.swift in Sources */,
 				F939768A29CDFA6F00AE22AD /* BindingView.swift in Sources */,
+				F91B27B029FC171D00CFBA0A /* ExperimentDataModel.xcdatamodeld in Sources */,
 				F9E8AFBD29CB393500A3441A /* TabBarView.swift in Sources */,
 				F939768329CDE10700AE22AD /* FrameView.swift in Sources */,
+				F91B27B429FC196400CFBA0A /* ColorModel.swift in Sources */,
 				F939768529CDE12900AE22AD /* ExperimentMenuView.swift in Sources */,
 				F939768C29CE016600AE22AD /* AnimationView.swift in Sources */,
+				F91B27AD29FC15AB00CFBA0A /* PickerView.swift in Sources */,
+				F91B27AB29FAB43200CFBA0A /* StackView.swift in Sources */,
 				F93976D029CF068E00AE22AD /* Converters.swift in Sources */,
 				F9B3162E29D1AA0400746179 /* ToggleDarkModeView.swift in Sources */,
+				F991343B29F5361E00758FAD /* NavigationTestView.swift in Sources */,
 				F93976E229CF3E3E00AE22AD /* UITestingView.swift in Sources */,
 				F939773029D1967A00AE22AD /* BackgroundView.swift in Sources */,
 				F939768E29CE0AFD00AE22AD /* AnimationTimingView.swift in Sources */,
@@ -354,6 +381,7 @@
 				F9DC3AD529C9943500BB2AA3 /* ExperimentApp.swift in Sources */,
 				F93976CE29CF05DB00AE22AD /* ViewModel.swift in Sources */,
 				F939768729CDEE3700AE22AD /* ExtractSubviewsView.swift in Sources */,
+				F91B27B229FC190C00CFBA0A /* ColorDataController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,6 +683,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F91B27AE29FC171D00CFBA0A /* ExperimentDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F91B27AF29FC171D00CFBA0A /* ExperimentDataModel.xcdatamodel */,
+			);
+			currentVersion = F91B27AF29FC171D00CFBA0A /* ExperimentDataModel.xcdatamodel */;
+			path = ExperimentDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F9DC3AC929C9943400BB2AA3 /* Project object */;
 }
